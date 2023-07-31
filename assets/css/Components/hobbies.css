@@ -35,6 +35,7 @@
 }
 
 .hobbies__icon {
-    width: 50%;
+    min-width: 65px;
+    max-width: 70px;
     height: auto;
 }

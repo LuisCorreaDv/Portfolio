@@ -1,0 +1,32 @@
+.education{
+    background: #dce8f8;
+}
+
+.education__title{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding-top: 1.5rem;
+}
+
+.education__card{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.education__card__content{
+    padding-top: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.education__card__header{
+    font-weight: 700;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    font-size: 1.2rem;
+}
+
+.education__card__text{
+    padding-top: 0.25rem;
+}
