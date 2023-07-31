@@ -1,0 +1,52 @@
+.projects__title {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding-top: 1.5rem;
+}
+
+.projects__card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.projects__card__content {
+    padding-top: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.projects__card__header {
+    font-weight: 700;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    font-size: 1.2rem;
+}
+
+.projects__card__text {
+    padding-top: 0.25rem;
+}
+
+.projects__card__buttons {
+    padding-top: 0.25rem;
+}
+
+.projects__card__buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.projects__repositoryBtn {
+    color: 2A7AE4;
+    font-size: 0.85rem;
+    padding: 10px 20px 10px 20px;
+    border: solid #2A7AE4 1px;
+}
+
+.projects__demoBtn {
+    color: #fefefe;
+    font-size: 0.85rem;
+    background: #2A7AE4;
+    padding: 10px 20px 10px 20px;
+}
