@@ -50,6 +50,7 @@
 
 .input:focus {
     outline: none;
+    border-bottom: 2px solid #2A7AE4;
 }
 
 .input-label {
@@ -114,6 +115,7 @@
   
   .textarea:focus {
     outline: none;
+    border-bottom: 2px solid #2A7AE4;
   }
   
   .textarea-label {
