@@ -1,0 +1,23 @@
+.white__btn {
+    color: #2A7AE4;
+    font-size: 0.85rem;
+    padding: 10px 20px 10px 20px;
+    border: solid #2A7AE4 1px;
+}
+
+.white__btn a{
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+.blue__btn {
+    color: #fefefe;
+    font-size: 0.85rem;
+    background: #2A7AE4;
+    padding: 10px 20px 10px 20px;
+}
+
+.blue__btn a{
+    color: #fefefe;
+    text-decoration: none;
+}
