@@ -5,9 +5,6 @@
 .hobbies__container {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    padding-top: 0.5rem;
 }
 
 .hobbies__title {
@@ -20,12 +17,9 @@
 .hobbies__card {
     display: flex;
     flex-direction: column;
-    width: calc(50% - 3rem);
-    margin-bottom: 1rem;
+    margin: 10px;
+    padding: 10px;
     box-shadow: 5px 3px 32px -3px rgba(84, 84, 84, 0.77);
-    -webkit-box-shadow: 5px 3px 32px -3px rgba(84, 84, 84, 0.77);
-    -moz-box-shadow: 5px 3px 32px -3px rgba(84, 84, 84, 0.77);
-    padding: 0.8rem;
 }
 
 .hobbies__card p {
@@ -38,4 +32,17 @@
     min-width: 65px;
     max-width: 70px;
     height: auto;
+}
+
+@media screen and (min-width:0px) {
+    .hobbies__card {
+        width: calc((100% / 2 ) - 2.5rem);
+    }
+}
+
+@media screen and (min-width:768px) {
+    .hobbies__card {
+        width: calc(33.33% - 3rem);
+        margin-left: 1.1rem;
+    }
 }
