@@ -9,10 +9,15 @@
     padding-top: 1.5rem;
 }
 
+.education__container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .education__card{
     display: flex;
     flex-direction: column;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .education__card__content{
@@ -29,4 +34,21 @@
 
 .education__card__text{
     padding-top: 0.25rem;
+}
+
+.education__card__image{
+    height: 140px;
+    width: 100%;
+}
+
+@media screen and (min-width:0px) {
+    .education__card {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px){
+    .education__card{
+        width: calc(33.33% - 2rem);
+    }
 }
