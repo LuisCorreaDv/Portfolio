@@ -38,3 +38,18 @@
     text-decoration: none;
 }
 
+@media screen and (min-width:1440px){
+    .projects__title{
+        font-size: 1.75rem;
+    }
+    .projects__card__header{
+        font-size: 1.5rem;
+    }
+    .projects__card__text{
+        font-size: 1.25rem;
+    }
+    .projects__card__buttons button{
+        font-size: 1.15rem;
+    }
+}
+
