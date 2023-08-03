@@ -1,14 +1,46 @@
-.header{
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    margin: 0.75rem;
+    margin: 1.5rem;
 }
 
-.header__title{
+.header__title {
     font-size: 1rem;
     font-weight: 800;
     text-transform: uppercase;
+}
+
+.header__mail {
+    justify-content: flex-end;
+}
+
+@media screen and (min-width:0) {
+    .header{
+        padding-top: 0.5rem;
+        margin: 0.5rem;
+    }
+    .header__menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .header__menu {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        order: 3;
+    }
+
+    .header__mail{
+        font-weight: 800;
+        order: 1;
+    }
+
+    .header__title{
+        display: none;
+    }
 }

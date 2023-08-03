@@ -79,7 +79,7 @@
 }
 
 .input-container--invalid .input-label {
-    color: var(--warning-color);
+    color: #df2525;
 }
 
 .input-message-error {
@@ -87,7 +87,7 @@
 }
 
 .input-container--invalid .input-message-error {
-    color: var(--warning-color);
+    color: #df2525;
     display: block;
     margin-top: 0.5rem;
     padding-left: 0.5rem;
@@ -95,7 +95,7 @@
 
 .textarea {
     box-sizing: border-box;
-    border: 1px solid var(--secondary-color);
+    border: 1px solid #d6eaff;
     padding: 0.5rem;
     border-radius: 7px;
     width: 100%;
@@ -106,7 +106,7 @@
     position: relative;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-weight: var(--font-weigth-input);
+    font-weight: 300;
   }
   
   .textarea::placeholder {
@@ -122,7 +122,7 @@
     position: absolute;
     top: 0.5rem;
     left: 0.5rem;
-    font-size: var(--font-size-input-label);
+    font-size: 20px;
     transition: all 0.25s;
   }
   
@@ -138,11 +138,11 @@
   }
   
   .textarea-container--invalid .textarea {
-    border: 1px solid var(--warning-color);
+    border: 1px solid #df2525;
   }
   
   .textarea-container--invalid .textarea-label {
-    color: var(--warning-color);
+    color: #df2525;
   }
   
   .textarea-mensaje-error {
@@ -151,7 +151,7 @@
   
   .textarea-container--invalid .textarea-mensaje-error {
     display: block;
-    color: var(--warning-color);
+    color: #df2525;
     margin-top: 0.5rem;
     padding-left: 0.5rem;
   }
