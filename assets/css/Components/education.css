@@ -52,3 +52,17 @@
         width: calc(33.33% - 2rem);
     }
 }
+
+@media screen and (min-width:1440px){
+    .education__title{
+        font-size: 1.75rem;
+    }
+
+    .education__card__header{
+        font-size: 1.6rem;
+    }
+
+    .education__card__text{
+        font-size: 1.25rem;
+    }
+}
