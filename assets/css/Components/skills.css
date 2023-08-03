@@ -46,3 +46,12 @@
         margin-left: 1.1rem;
     }
 }
+
+@media screen and (min-width:1440px){
+    .skills__title{
+        font-size: 1.75rem;
+    }
+    .skills__card{
+        width: calc((100% / 6) - 3rem);
+    }
+}

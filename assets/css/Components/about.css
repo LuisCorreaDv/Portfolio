@@ -13,3 +13,14 @@
 .about__text{
     padding: 0.75rem 0 0.75rem;
 }
+
+@media screen and (min-width:1440px){
+    .about__title{
+        font-size: 1.75rem;
+    }
+
+    .about__text{
+        width: 75%;
+        font-size: 1.25rem;
+    }
+}
