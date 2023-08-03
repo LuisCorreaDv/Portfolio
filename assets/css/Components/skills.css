@@ -48,6 +48,9 @@
 }
 
 @media screen and (min-width:1440px){
+    .skills{
+        margin-bottom: 2rem;
+    }
     .skills__title{
         font-size: 1.75rem;
     }

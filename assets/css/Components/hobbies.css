@@ -46,3 +46,15 @@
         margin-left: 1.1rem;
     }
 }
+
+@media screen and (min-width:1440px){
+    .hobbies{
+        margin-bottom: 2rem;
+    }
+    .hobbies__title{
+        font-size: 1.75rem;
+    }
+    .hobbies__card{
+        width: calc((100% / 6) - 3rem);
+    }
+}
