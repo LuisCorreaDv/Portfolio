@@ -55,14 +55,14 @@
 
 @media screen and (min-width:1440px){
     .education__title{
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 
     .education__card__header{
-        font-size: 1.6rem;
+        font-size: 1.25rem;
     }
 
     .education__card__text{
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 }

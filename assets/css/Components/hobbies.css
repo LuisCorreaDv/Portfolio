@@ -52,7 +52,7 @@
         margin-bottom: 2rem;
     }
     .hobbies__title{
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
     .hobbies__card{
         width: calc((100% / 6) - 3rem);
