@@ -18,9 +18,13 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    margin: 12px;
+    box-shadow: 1px 1px 5px 4px rgba(173,173,173,1);
 }
 
 .education__card__content{
+    align-items: center;
+    justify-content: center;
     padding-top: 0.5rem;
     margin-bottom: 0.25rem;
 }
@@ -37,8 +41,9 @@
 }
 
 .education__card__image{
-    height: 140px;
     width: 100%;
+    height: 150px;
+    object-fit: fill;
 }
 
 @media screen and (min-width:0px) {
@@ -49,13 +54,21 @@
 
 @media screen and (min-width:768px){
     .education__card{
-        width: calc(33.33% - 2rem);
+        margin-left: 15%;
+        margin-right: 15%;
     }
 }
 
 @media screen and (min-width:1440px){
+    .education__container{
+        padding: 16px;
+    }
+    .education__card {
+        margin: 8px;
+        width: calc(33.33% - 3rem);
+    }
     .education__title{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .education__card__header{
